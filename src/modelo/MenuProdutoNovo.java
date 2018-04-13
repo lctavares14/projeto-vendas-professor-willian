@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MenuProdutoNovo {
 	static Integer valorMenu = 0;
 	static Scanner entrada = new Scanner(System.in);
-	static List<Produto> produtos = new ArrayList<Produto>();
+	static List<Produto> produtos = new ArrayList<>();
 			
 	public static void main(String[] args) {
 		while (valorMenu != 3) {

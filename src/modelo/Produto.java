@@ -15,8 +15,8 @@ public class Produto {
 	}
 	
 	public String toString() {
-		return "Nome: " + name + "; Quant.: " + quant + "; Preço: "
-				+ valor + "; Valor Total: " + valorTotal;
+		return "\nNome: " + name + "; \nQuant.: " + quant + "; \nPreço: "
+				+ valor + "; \nValor Total: " + valorTotal;
 	}
 	public String getName() {
 		return name;
